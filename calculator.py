@@ -10,6 +10,8 @@ def calculator():
         return numb1 / numb2
     elif command == "*":
         return numb1 * numb2
+    elif command == "%":
+        return numb1 % numb2
     else:
         print("=================================================")
         print("Please write the required command: ")
